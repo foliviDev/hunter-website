@@ -5,8 +5,8 @@
 }
 
 .background {
-    border: 5px solid blue;
-    background-color: dodgerblue;
+    border: 5px solid #8b0000;
+    background-color: lightcoral;
     display: flex;
     flex-flow: row wrap;
     height: 100vh;
@@ -21,8 +21,8 @@
 }
 
 .bartender-box {
-    border: 5px solid red;
-    background: lightcoral;
+    border: 5px solid blue;
+    background-color: dodgerblue;
     display: flex;
     margin: 5px;
 }
