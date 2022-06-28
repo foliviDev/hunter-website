@@ -8,7 +8,7 @@
     border: 5px solid #8b0000;
     background-color: #8b0000;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row-reverse wrap;
     height: 100vh;
     align-items: center;
     justify-content: center;
@@ -16,7 +16,7 @@
 
 .bartender-box,
 .menu-box {
-    flex: 1 1 auto;
+    flex: 1 1 0;
     height: 90vh;
 }
 
@@ -25,6 +25,14 @@
     background-color: dodgerblue;
     display: flex;
     margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bartender-box img {
+    border: 5px solid #8b0000;
+    max-width:100%;
+    max-height:100%;
 }
 
 .menu-box {
