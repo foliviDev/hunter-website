@@ -6,7 +6,7 @@
 
 .background {
     border: 5px solid #8b0000;
-    background-color: lightcoral;
+    background-color: #8b0000;
     display: flex;
     flex-flow: row wrap;
     height: 100vh;
